@@ -1,0 +1,79 @@
+@font-face {
+  /*Libre Baskerville*/
+  font-family: 'Libre Baskerville';
+  src: url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold.eot');
+  src: url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold.woff2') format('woff2'),
+  url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold.svg') format('svg'),
+  url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold-light.ttf') format('truetype'),
+  url_css('fonts/LebreBaskervile/librebaskerville-bold/librebaskerville-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  /*Libre Baskerville*/
+  font-family: 'Libre Baskerville';
+  src: url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.eot');
+  src: url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.woff2') format('woff2'),
+  url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.svg') format('svg'),
+  url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.ttf') format('truetype'),
+  url_css('fonts/LebreBaskervile/librebaskerville-regular/librebaskerville-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+//POPINS
+@font-face {
+  /*Poppins-medium*/
+  font-family: 'Poppins';
+  src: url_css('fonts/poppins/poppins-medium/poppins-medium.eot');
+  src: url_css('fonts/poppins/poppins-medium/poppins-medium.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/poppins/poppins-medium/poppins-medium.woff2') format('woff2'),
+  url_css('fonts/poppins/poppins-medium/poppins-medium.svg') format('svg'),
+  url_css('fonts/poppins/poppins-medium/poppins-medium.ttf') format('truetype'),
+  url_css('fonts/poppins/poppins-medium/poppins-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  /*Poppins-medium*/
+  font-family: 'Poppins';
+  src: url_css('fonts/poppins/poopins-regular/poopins-regular.eot');
+  src: url_css('fonts/poppins/poopins-regular/poopins-regular.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/poppins/poopins-regular/poopins-regular.woff2') format('woff2'),
+  url_css('fonts/poppins/poopins-regular/poopins-regular.svg') format('svg'),
+  url_css('fonts/poppins/poopins-regular/poopins-regular.ttf') format('truetype'),
+  url_css('fonts/poppins/poopins-regular/poopins-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  /*Poppins-medium*/
+  font-family: 'Poppins';
+  src: url_css('fonts/poppins/poopins-semibold/poopins-semibold.eot');
+  src: url_css('fonts/poppins/poopins-semibold/poopins-semibold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/poppins/poopins-semibold/poopins-semibold.woff2') format('woff2'),
+  url_css('fonts/poppins/poopins-semibold/poopins-semibold.svg') format('svg'),
+  url_css('fonts/poppins/poopins-semibold/poopins-semibold.ttf') format('truetype'),
+  url_css('fonts/poppins/poopins-semibold/poopins-semibold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+//Wisdom - Script
+@font-face {
+  /*Wisdom - Script-regular*/
+  font-family: 'Wisdom - Script';
+  src: url_css('fonts/WisdomScript/WisdomScript/WisdomScript.eot');
+  src: url_css('fonts/WisdomScript/WisdomScript/WisdomScript.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/WisdomScript/WisdomScript/WisdomScript.woff2') format('woff2'),
+  url_css('fonts/WisdomScript/WisdomScript/WisdomScript.svg') format('svg'),
+  url_css('fonts/WisdomScript/WisdomScript/WisdomScript.ttf') format('truetype'),
+  url_css('fonts/WisdomScript/WisdomScript/WisdomScript.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
