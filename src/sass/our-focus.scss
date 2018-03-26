@@ -1,0 +1,120 @@
+.focus {
+  width: 100%;
+  position: relative;
+  background-color: #f7f7f7;
+  padding: rem(140px) rem(10px);
+}
+
+.title_block {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: rem(75px);
+  h2 {
+    color: #313131;
+    font: 700 rem(50px)/1.6 "Libre Baskerville";
+    margin-bottom: rem(20px);
+  }
+}
+
+.focus_content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  .focus_elem {
+    position: relative;
+    width: 25%;
+    margin: 0 rem(10px);
+    background-color: #fff;
+    box-shadow: 0 0 rem(20px) rgba(0, 0, 0, 0.05);
+    padding: rem(60px) rem(20px);
+    overflow: hidden;
+    cursor: pointer;
+    span {
+      width: 100%;
+      height: rem(3px);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: .5s;
+    }
+  }
+}
+
+.focus_head {
+  width: 100%;
+  position: relative;
+  margin-bottom: rem(30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  i {
+    font-size: rem(40px);
+  }
+  h2 {
+    font-weight: 500;
+    font-size: rem(20px);
+  }
+}
+
+.focus_text {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.focus_elem {
+  &:first-child {
+    span {
+      background-color: $red-color;
+    }
+  }
+  &:nth-child(2) {
+    span {
+      background-color: $green-color;
+    }
+  }
+  &:nth-child(3) {
+    span {
+      background-color: $purple-color;
+    }
+  }
+  &:last-child {
+    span {
+      background-color: $orange-color;
+    }
+  }
+  &:hover {
+    span {
+      height: 100%;
+    }
+    .focus_head {
+      i {
+        color: #ffffff;
+      }
+      h2 {
+        color: #ffffff;
+      }
+    }
+    .focus_text {
+      color: #ffffff;
+    }
+  }
+}
+
+.focus_web {
+  color: $red-color;
+}
+
+.focus_ux {
+  color: $green-color;
+}
+
+.focus_photogrpahy {
+  color: $purple-color;
+}
+
+.focus_app {
+  color: $orange-color;
+}

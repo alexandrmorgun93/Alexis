@@ -1,6 +1,7 @@
 body {
   font: 400 rem(15px)/1.3 "Poppins";
   color: #616161;
+  padding-top: rem(75px);
 }
 
 .container {
@@ -8,4 +9,30 @@ body {
   width: 100%;
   position: relative;
   margin: auto;
+}
+
+.btn {
+  width: rem(180px);
+  height: rem(50px);
+  border-radius: rem(25px);
+  background-color: #fc5f45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font: 900 rem(16px)/1 "Poppins";
+  transition: .3s;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.3;
+  color: #e0e0e0;
+  font: 900 rem(274px)/0.8 'Poppins';
+
 }

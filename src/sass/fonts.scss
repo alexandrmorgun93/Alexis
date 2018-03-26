@@ -41,12 +41,12 @@
 @font-face {
   /*Poppins-medium*/
   font-family: 'Poppins';
-  src: url_css('fonts/poppins/poopins-regular/poopins-regular.eot');
-  src: url_css('fonts/poppins/poopins-regular/poopins-regular.eot#iefix') format('embedded-opentype'),
-  url_css('fonts/poppins/poopins-regular/poopins-regular.woff2') format('woff2'),
-  url_css('fonts/poppins/poopins-regular/poopins-regular.svg') format('svg'),
-  url_css('fonts/poppins/poopins-regular/poopins-regular.ttf') format('truetype'),
-  url_css('fonts/poppins/poopins-regular/poopins-regular.woff') format('woff');
+  src: url_css('fonts/poppins/poppins-regular/poppins-regular.eot');
+  src: url_css('fonts/poppins/poppins-regular/poppins-regular.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/poppins/poppins-regular/poppins-regular.woff2') format('woff2'),
+  url_css('fonts/poppins/poppins-regular/poppins-regular.svg') format('svg'),
+  url_css('fonts/poppins/poopins-regular/poppins-regular.ttf') format('truetype'),
+  url_css('fonts/poppins/poppins-regular/poppins-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -54,12 +54,12 @@
 @font-face {
   /*Poppins-medium*/
   font-family: 'Poppins';
-  src: url_css('fonts/poppins/poopins-semibold/poopins-semibold.eot');
-  src: url_css('fonts/poppins/poopins-semibold/poopins-semibold.eot#iefix') format('embedded-opentype'),
-  url_css('fonts/poppins/poopins-semibold/poopins-semibold.woff2') format('woff2'),
-  url_css('fonts/poppins/poopins-semibold/poopins-semibold.svg') format('svg'),
-  url_css('fonts/poppins/poopins-semibold/poopins-semibold.ttf') format('truetype'),
-  url_css('fonts/poppins/poopins-semibold/poopins-semibold.woff') format('woff');
+  src: url_css('fonts/poppins/poppins-semibold/poppins-semibold.eot');
+  src: url_css('fonts/poppins/poppins-semibold/poppins-semibold.eot#iefix') format('embedded-opentype'),
+  url_css('fonts/poppins/poppins-semibold/poppins-semibold.woff2') format('woff2'),
+  url_css('fonts/poppins/poppins-semibold/poppins-semibold.svg') format('svg'),
+  url_css('fonts/poppins/poppins-semibold/poppins-semibold.ttf') format('truetype'),
+  url_css('fonts/poppins/poppins-semibold/poppins-semibold.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }

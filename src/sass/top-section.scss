@@ -1,0 +1,117 @@
+.top_section {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    @include before_fig(100%, 100%, rgba(38, 39, 50, 0.5));
+    z-index: 1;
+  }
+  .parallax {
+    position: absolute;
+  }
+  .container {
+    padding: rem(140px) rem(10px);
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+  }
+}
+
+.top_content {
+  position: relative;
+  max-width: rem(830px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font: 400 rem(60px)/1.4 "Libre Baskerville";
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: rem(40px);
+  }
+  .btn {
+    margin-bottom: rem(60px);
+    &:hover {
+      background-color: #fff;
+      color: $red-color;
+    }
+  }
+}
+
+.project {
+  width: 100%;
+  position: relative;
+  display: flex;
+  max-width: rem(740px);
+  padding-left: rem(15px);
+}
+
+.project_elem {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  a {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+  }
+  i {
+    transition: .3s;
+    width: rem(41px);
+    height: rem(40px);
+    border-radius: 50%;
+    border: rem(1px) solid $green-color;
+    color: $green-color;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-bottom: rem(30px);
+  }
+  p {
+    transition: .3s;
+    color: $green-color;
+    text-transform: uppercase;
+    font: 500 rem(18px)/1 "Poppins";
+  }
+  &:first-child {
+    margin-right: rem(90px);
+  }
+  &:nth-child(2) {
+    margin-right: rem(60px);
+    i {
+      border: rem(1px) solid $purple-color;
+      color: $purple-color;
+    }
+    p {
+      color: $purple-color;
+    }
+  }
+  &:nth-child(3) {
+    i {
+      border: rem(1px) solid $orange-color;
+      color: $orange-color;
+    }
+    p {
+      color: $orange-color;
+    }
+  }
+}
+
+.project_elem {
+  &:hover {
+    i {
+      border: rem(1px) solid #e8c2d7;
+      color: #e8c2d7;
+    }
+    p {
+      color: #e8c2d7;
+    }
+  }
+}

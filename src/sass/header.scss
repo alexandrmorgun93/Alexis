@@ -1,6 +1,8 @@
 .main_head {
   width: 100%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: rem(75px);
   box-shadow: 0 0 rem(24px) rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
@@ -30,11 +32,19 @@
       font: 500 rem(14px)/1 "Poppins";
       margin-right: rem(20px);
       &::before {
-        @include before_fig(0, rem(2px), $red-color);
+        @include before_fig(0, rem(1px), $red-color);
         left: 0;
         bottom: rem(-5px);
         opacity: 0;
         transition: .3s;
+      }
+      &:hover {
+        a {
+          span {
+            transition: .3s;
+            color: $red-color;
+          }
+        }
       }
       &:hover::before {
         width: 100%;
