@@ -441,4 +441,140 @@ body {
 .focus_app {
   color: #feb960; }
 
+.video {
+  width: 100%;
+  height: 31.25rem;
+  overflow: hidden;
+  position: relative; }
+  .video .video_fade {
+    background-color: rgba(38, 39, 50, 0.85);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    transition: .3s .2s; }
+    .video .video_fade:first-child {
+      left: 0; }
+    .video .video_fade:nth-child(2) {
+      right: 0; }
+    .video .video_fade.active:first-child {
+      left: -50%; }
+    .video .video_fade.active:nth-child(2) {
+      right: -50%; }
+  .video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+    .video video:-webkit-full-screen {
+      width: 100%;
+      height: 100%; }
+
+.video_elem {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: .3s; }
+  .video_elem.active {
+    visibility: hidden;
+    opacity: 0; }
+  .video_elem h3 {
+    color: #ffffff;
+    font: 400 1.875rem/1 "Poppins";
+    margin-bottom: 2.5rem; }
+  .video_elem .play_video {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.0625rem solid #38c695;
+    color: #38c695;
+    margin-bottom: 2.5rem;
+    cursor: pointer; }
+  .video_elem p {
+    color: #ffffff; }
+
+.stop_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer; }
+
+.portfolio {
+  width: 100%;
+  position: relative;
+  padding: 8.75rem 0.625rem; }
+  .portfolio .portfolio_content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.portfolio_elem {
+  position: relative;
+  max-width: 22.5rem;
+  width: 100%;
+  height: 18rem;
+  margin: 0 0.3125rem 0.625rem 0.3125rem;
+  cursor: pointer;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.05); }
+  .portfolio_elem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s; }
+  .portfolio_elem:hover img {
+    filter: saturate(500%); }
+  .portfolio_elem:hover .portfolio_number {
+    bottom: 0;
+    opacity: 1; }
+
+.portfolio_number {
+  position: absolute;
+  bottom: -50%;
+  opacity: 0;
+  width: 100%;
+  padding: 1.375rem 0;
+  transition: .3s;
+  background-color: #fff; }
+  .portfolio_number p {
+    font: 500 0.9375rem/1 "Poppins";
+    text-align: center; }
+  .portfolio_number .number_line {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex; }
+    .portfolio_number .number_line i {
+      width: 25%;
+      height: 0.1875rem;
+      position: relative;
+      top: 0; }
+      .portfolio_number .number_line i:first-child {
+        background-color: #fc5f45; }
+      .portfolio_number .number_line i:nth-child(2) {
+        background-color: #38c695; }
+      .portfolio_number .number_line i:nth-child(3) {
+        background-color: #b27cf5; }
+      .portfolio_number .number_line i:last-child {
+        background-color: #feb960; }
+
 /*# sourceMappingURL=main.css.map*/
